@@ -1,0 +1,67 @@
+html, body {
+    height: 100%;
+}
+
+.footer {
+    background-color: #f8f9fa !important;
+    color: #6c757d;
+}
+
+.min-vh-100 {
+    min-height: 100vh;
+}
+
+/* Movie card hover effects */
+.movie-card {
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.movie-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15) !important;
+}
+
+/* Movie details hero section */
+.movie-details-hero {
+    min-height: 60vh;
+    display: flex;
+    align-items: center;
+}
+
+/* Hero section gradient */
+.hero-section {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+/* Team member cards */
+.team-member {
+    border: 1px solid #dee2e6;
+    border-radius: 0.5rem;
+    transition: transform 0.2s ease-in-out;
+}
+
+.team-member:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+/* Badge styling */
+.badge {
+    font-size: 0.875em;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .movie-details-hero {
+        min-height: auto;
+        padding: 2rem 0;
+    }
+
+    .display-4 {
+        font-size: 2rem;
+    }
+
+    .hero-section h1 {
+        font-size: 2.5rem;
+    }
+}
