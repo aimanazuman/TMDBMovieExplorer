@@ -253,7 +253,7 @@ It's a free to use project :)
 
 If you encounter any issues:
 
-1. Check the [Issues](https://github.com/yourusername/TMDB-Movie-Explorer/issues) section
+1. Check the [Issues](https://github.com/aimanazuman/TMDB-Movie-Explorer/issues) section
 2. Verify your TMDB API key is correctly configured
 3. Ensure all dependencies are restored (`dotnet restore`)
 4. Check the application logs for detailed error information
